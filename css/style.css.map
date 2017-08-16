@@ -1,8 +1,8 @@
 {
 	"version": 3,
-	"file": "main.css",
+	"file": "style.css",
 	"sources": [
-		"../sass/main.sass"
+		"../sass/style.sass"
 	],
 	"names": [],
 	"mappings": ""
