@@ -3,7 +3,7 @@
 function drawTree(h) {
 	
 	for (var i = 1 ; i <= h ; i++) {
-		var star = "";
+		var star = "*";
 		
 		for (var j = 0 ; j <= i ; j++ ) {
 			var g = h - j
@@ -14,9 +14,10 @@ function drawTree(h) {
 				
 			}
 
-			star += '**';
+			
 			var tree = space.concat(star);
 			console.log(tree); 
+			star += '**';
 
 		}
 	}
